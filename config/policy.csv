@@ -1,0 +1,12 @@
+p,anonymous,/api/v1/users/auth/login,POST
+p,ADMIN,/api/v1/roles,GET
+p,ADMIN,/api/v1/roles,POST
+p,ADMIN,/api/v1/roles,DELETE
+
+p,ADMIN,/api/v1/users,GET
+p,ADMIN,/api/v1/users/assign-role,PATCH
+p,anonymous,/api/v1/users,POST
+p,ADMIN|USER,/api/v1/users/:id,GET
+p,USER,/api/v1/users/:id,PUT
+p,ADMIN|USER,/api/v1/users/:id,DELETE
+

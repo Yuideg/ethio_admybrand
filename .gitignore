@@ -1,0 +1,5 @@
+_yala/
+.idea
+.env
+db.sql
+yaladb.sql
